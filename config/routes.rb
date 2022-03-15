@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/help', to: 'html_page#help'
   get '/about', to: 'html_page#about'
   get '/contact', to: 'html_page#contact'
+  get '/signup', to: 'users#new'
 end
