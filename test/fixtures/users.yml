@@ -10,6 +10,16 @@ snake:
   email: snake@example.com
   password_digest: <%= User.digest('password') %>
 
+cobra:
+  name: Cobra Test
+  email: cobra@example.com
+  password_digest: <%= User.digest('password') %>
+
+dutch:
+  name: Dutch Test
+  email: dutch@example.com
+  password_digest: <%= User.digest('password') %>
+
 <% 30.times do |n| %>
 user_<%= n %>:
   name: <%= "User #{n}" %>
